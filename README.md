@@ -27,6 +27,8 @@ for some USDC faucets you should connect your wallet and after that you should s
 
 - And then in the remix IDE you should call the fn_RequestFlashLoan fanction and pass the USDC-TestnetMintableERC20-Aave with this address `0x94a9D9AC8a22534E3FaCa9F4e7F2E2cf85d5E4C8` in _token and pass `10000000` in _amount and after that you can press transact, and done! You did your first flash loan...
 
+I used Harthat in this repo just for uploading the `SimpleFlashLoan.sol` because when I put the code in vscode IDE the contract could not found the import files so I used hardhat and @aave/core-v3 to make the import files localize
+
 ## Prerequisites
 
 - An Ethereum wallet (e.g., MetaMask)
