@@ -35,3 +35,5 @@ I used Harthat in this repo just for uploading the `SimpleFlashLoan.sol` because
 - Sepolia Ethereum testnet ETH (for deploying and interacting with contracts)
 - QuickNode account (optional, for accessing the Ethereum node)
 
+
+The contract address: `0xAc2702433873D91613dFF29597eDD27b0B9e8B5D`
