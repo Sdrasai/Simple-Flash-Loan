@@ -1,13 +1,24 @@
-# Sample Hardhat Project
+# Simple Flash Loan Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project demonstrates how to create a simple flash loan contract using the Aave protocol on the Sepolia Ethereum testnet. 
 
-Try running some of the following tasks:
+## Overview
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+Flash loans are a type of uncollateralized loan that must be borrowed and repaid within the same transaction. They are primarily used for arbitrage, collateral swaps, and other advanced trading strategies. This project utilizes Aave's flash loan feature to perform such operations.
+
+## Prerequisites
+
+- Node.js (v14 or later)
+- NPM or Yarn
+- Hardhat
+- An Ethereum wallet (e.g., MetaMask)
+- Sepolia Ethereum testnet ETH (for deploying and interacting with contracts)
+- QuickNode account (optional, for accessing the Ethereum node)
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/simple-flash-loan.git
+cd simple-flash-loan
